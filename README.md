@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
-<a href="https://gilamastra.github.io/Netflix-Clone/"><button>DEMO</button></a>
+### <a href="https://gilamastra.github.io/Netflix-Clone/"><button>DEMO</button></a>
 
 ## Available Scripts
 
