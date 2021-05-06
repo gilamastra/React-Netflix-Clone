@@ -1,0 +1,9 @@
+.signUpScreen {
+  max-width: 300px;
+  padding: 70px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.85);
+}
+.signUpScreen > form {
+  display: grid;
+}
