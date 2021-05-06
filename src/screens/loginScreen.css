@@ -1,0 +1,63 @@
+.loginScreen {
+  position: relative;
+  height: 100%;
+  width: 100%;
+
+  background: url("http://authors.appadvice.com/wp-content/appadvice-v2-media/2016/11/Netflix-background_860c8ece6b34fb4f43af02255ca8f225.jpg");
+  background-size: cover;
+}
+.loginScreen__logo {
+  position: fixed;
+  left: 20px;
+  width: 150px;
+  object-fit: contain;
+}
+
+.loginScreen__button {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #e50514;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+}
+
+.loginScreen__gradient {
+  width: 100%;
+
+  background: rgba(0, 0, 0, 0.4);
+  height: 100vh;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+
+.loginScreen__body {
+  z-index: 1;
+  color: white;
+  position: absolute;
+  top: 30%;
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+.loginScreen__body > h1 {
+  font-size: 3.125rem;
+  margin-bottom: 20px;
+}
+.loginScreen__body > h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+.loginScreen__body > h3 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
