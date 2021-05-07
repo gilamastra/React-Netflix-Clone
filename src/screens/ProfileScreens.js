@@ -23,6 +23,38 @@ const ProfileScreens = () => {
             <h2>{user.email}</h2>
             <div className="profileScreen__plans">
               <h3>Plans</h3>
+              <h4>Renewal date:</h4>
+
+              <div className="profileScreen__plan">
+                <div className="profileScreen__planLeft">
+                  <p>Netflix Standard</p>
+                  <p>1080p</p>
+                </div>
+                <button className="profileScreen__planButton">
+                  Subscribe
+                </button>
+              </div>
+
+              <div className="profileScreen__plan">
+                <div className="profileScreen__planLeft">
+                  <p>Netflix Basic</p>
+                  <span>480p</span>
+                </div>
+                <button className="profileScreen__planButton">
+                  Subscribe
+                </button>
+              </div>
+
+              <div className="profileScreen__plan">
+                <div className="profileScreen__planLeft">
+                  <p>Netflix Premium</p>
+                  <p>4k+HDR</p>
+                </div>
+                <button className="profileScreen__planButton">
+                  Subscribe
+                </button>
+              </div>
+
               <button
                 onClick={() => {
                   history.push("/");

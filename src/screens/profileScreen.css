@@ -52,7 +52,42 @@
 .profileScreen__plans {
   margin-top: 20px;
 }
-.profileScreen__plans h3 {
+
+.profileScreen__plans > h3 {
   border-bottom: 1px solid #282c2d;
   padding-bottom: 10px;
+}
+.profileScreen__plans > h4 {
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.profileScreen__plan {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+.profileScreen__planLeft {
+  margin-left: 15px;
+}
+@media screen and (max-width: 768px) {
+  .profileScreen__planLeft {
+    margin-left: 0;
+  }
+}
+.profileScreen__planLeft > p,
+.profileScreen__planLeft > p {
+  font-size: 14px;
+}
+.profileScreen__planButton {
+  background-color: #e50914;
+  border: 0;
+  outline: 0;
+  color: white;
+  font-size: 15px;
+  height: 35px;
+  padding: 0 15px;
+  cursor: pointer;
+  font-weight: 600;
 }
