@@ -40,7 +40,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-[![Product Name Screen Shot][product-screenshot]]()
+[![Product Name Screen Shot][product-screenshot]](https://gilamastra.github.io/React-Netflix-Clone/)
 
 Netflix clone built with React for the frontend and Redux to manage the state of the application, use the tmdb API, requesting data with Axios, and a login system made with Firebase
 
