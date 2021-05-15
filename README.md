@@ -27,7 +27,7 @@
     <img src="https://i.pinimg.com/originals/bd/75/c5/bd75c51dfa6bc90fe6043e03c609f0f3.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Slack Clone</h3>
+  <h3 align="center">Netflix Clone</h3>
 
   <p align="center">
     <a target="_blank" href="https://gilamastra.github.io/React-Netflix-Clone/">View Demo</a>
@@ -42,7 +42,8 @@
 ## About The Project
 [![Product Name Screen Shot][product-screenshot]]()
 
-Slack clone build with react, styled-components on the frontend, and firebase to store messages and to authenticate with google as well as live chat.
+Netflix clone built with React for the frontend and Redux to manage the state of the application, use the tmdb API, requesting data with Axios, and a login system made with Firebase
+
 ### Built With
 
 * React.js
